@@ -55,14 +55,14 @@ atom-text-editor {
 // Syntax styles
 
 .syntax--comment {
-  color: @emerald;
+  color: @alizarin;
 }
 
 .syntax--keyword {
-  color: @carrot;
+  color: @alizarin;
 
   &.syntax--control {
-    color: @dark-purple;
+    color: @alizarin;
   }
 
   &.syntax--operator {
@@ -74,16 +74,16 @@ atom-text-editor {
   }
 
   &.syntax--other.syntax--unit {
-    color: @orange;
+    color: @carrot;
   }
 }
 
 .syntax--storage {
-  color: @carrot;
+  color: @dark-blue;
 }
 
 .syntax--constant {
-  color: @wet-asphalt;
+  color: lighten(@wet-asphalt, 10%);
 
   &.syntax--character.syntax--escape {
     color: @cyan;
@@ -106,7 +106,7 @@ atom-text-editor {
   color: @belize-hole;
 
   &.syntax--interpolation {
-    color: darken(@red, 10%);
+    color: darken(@alizarin, 10%);
   }
 
   &.syntax--parameter.syntax--function {
@@ -120,11 +120,11 @@ atom-text-editor {
 }
 
 .syntax--string {
-  color: @emerald;
+  color: darken(@emerald, 10%);
 
 
   &.syntax--regexp {
-    color: @cyan;
+    color: darken(@wisteria, 10%);
 
     .syntax--source.syntax--ruby.syntax--embedded {
       color: @orange;
@@ -132,14 +132,14 @@ atom-text-editor {
   }
 
   &.syntax--other.syntax--link {
-    color: @red;
+    color: @alizarin;
   }
 }
 
 .syntax--punctuation {
   &.syntax--definition {
     &.syntax--comment {
-      color: @emerald;
+      color: @alizarin;
     }
 
     &.syntax--string,
@@ -151,7 +151,7 @@ atom-text-editor {
 
     &.syntax--heading,
     &.syntax--identity {
-      color: @blue;
+      color: darken(@belize-hole, 10%);
     }
 
     &.syntax--bold {
@@ -173,7 +173,7 @@ atom-text-editor {
 
 .syntax--support {
   &.syntax--class {
-    color: @light-orange;
+    color: @wet-asphalt;
   }
 
   &.syntax--function  {
@@ -187,15 +187,15 @@ atom-text-editor {
 
 .syntax--entity {
   &.syntax--name.syntax--function {
-    color: @belize-hole;
+    color: @pumpkin;
   }
   &.syntax--name.syntax--type {
     color: @persian-indigo;
-    text-decoration: underline;
+    font-weight: bold;
   }
 
   &.syntax--other.syntax--inherited-class {
-    color: @green;
+    color: darken(@emerald, 10%);
   }
   &.syntax--name.syntax--class, &.syntax--name.syntax--type.syntax--class {
     color: @persian-indigo;
@@ -210,7 +210,7 @@ atom-text-editor {
   }
 
   &.syntax--other.syntax--attribute-name {
-    color: @orange;
+    color: @pumpkin;
 
     &.syntax--id {
       color: @wisteria;
@@ -220,7 +220,7 @@ atom-text-editor {
 
 .syntax--meta {
   &.syntax--class {
-    color: @light-orange;
+    color: darken(@carrot, 5%);
   }
 
   &.syntax--link {
@@ -252,11 +252,11 @@ atom-text-editor {
   }
 
   &.syntax--changed {
-    color: @purple;
+    color: @emerald;
   }
 
   &.syntax--deleted {
-    color: @red;
+    color: @alizarin;
   }
 
   &.syntax--italic {
@@ -269,19 +269,19 @@ atom-text-editor {
   }
 
   &.syntax--inserted {
-    color: @green;
+    color: @emerald;
   }
 
   &.syntax--list {
-    color: @red;
+    color: @alizarin;
   }
 
   &.syntax--quote {
-    color: @orange;
+    color: @carrot;
   }
 
   &.syntax--raw.syntax--inline {
-    color: @green;
+    color: darken(@emerald, 5%);
   }
 }
 

@@ -1,13 +1,13 @@
 {
   "name": "koi-syntax",
   "theme": "syntax",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A light syntax inspired by flat UI colors",
   "keywords": [
     "syntax",
     "theme"
   ],
-  "repository": "https://github.com/atom/koi-syntax",
+  "repository": "https://github.com/WoodenBell/koi-syntax",
   "license": "Apache 2.0",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

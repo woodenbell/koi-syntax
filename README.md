@@ -1,5 +1,7 @@
 # koi-syntax theme
 
-A short description of your theme.
+**A simple light theme inspired in popular UI flat colors**  
 
-![A screenshot of your theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)
+*Recommended with* [**apex-ui theme**](https://github.com/apex/apex-ui)
+
+![koi screenshot](https://woodenbell.github.io/static/images/koi-syntax-screenshot.png)

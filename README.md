@@ -4,4 +4,7 @@
 
 *Recommended with* [**apex-ui theme**](https://github.com/apex/apex-ui)
 
+ ### Installing :)
+`apm install koi-syntax`
+
 ![koi screenshot](https://woodenbell.github.io/static/images/koi-syntax-screenshot.png)
